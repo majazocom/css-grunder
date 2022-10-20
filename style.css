@@ -1,0 +1,22 @@
+body {
+    background-color: #824a85;
+}
+
+input[type="text"] {
+    background-color: #0e3f77;
+    color: white;
+}
+
+body>main>article.imageContainer>img,
+body>main>article.imageContainer>p {
+    display: inline-block;
+}
+
+body>main>article.listContainer>ul.myList {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+body>main>article.listContainer>ul.myList>li#item-1 {
+    color: blueviolet;
+}
